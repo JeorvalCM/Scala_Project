@@ -1,0 +1,33 @@
+//creating class Time
+class Time {
+  //private attributes of the class
+	private[this] var h = 12
+	private[this] var m = 12
+  //getter to access to the private var h
+	def hour: Int = h
+  //setter to change the value of the private variable h
+	def hour_= (x: Int) = {
+  //checking if it is a valid hour
+		require(0 <= x && x < 24)
+		h = x
+	}
+  //getter to access to the private var m
+	def minute = m
+  //setter to change the value of the private variable m
+	def minute_= (x: Int)  = {
+   //checking if it is a valid hour
+	require(0 <= x && x < 60)
+	m = x
+	}
+}
+
+val tiempo = new Time
+
+//will give an error because you cannot access to a private class
+tiempo.hour
+
+//return the value saved in the variable hour, getter
+tiempo hour
+
+//change the hour saved, setter
+tiempo hour_= 22
