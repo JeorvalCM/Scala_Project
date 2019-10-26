@@ -1,4 +1,4 @@
-/(define class
+//define class
 class BankAccount {
 	//attributes of the class, using private so you cannot access to it and change it
 	private var bal: Int = 0
@@ -25,9 +25,9 @@ class BankAccount {
 //creating an object of the class BankAccount
 val account = new BankAccount
 
-//applying a method of the class
+//applying a method of the class, that adds 100 dollars to the account
 account deposit 100
- //applying another method of the class
+ //applying another method of the class, that withdraw 100 dollars to the account
 account withdraw 80
 
 account withdraw 80
