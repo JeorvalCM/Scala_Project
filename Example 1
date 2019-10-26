@@ -25,9 +25,14 @@ class BankAccount {
 //creating an object of the class BankAccount
 val account = new BankAccount
 
+//~ means answer of the console
+~account: BankAccount = BankAccount@ //followeb by the pointer's name
+
 //applying a method of the class, that adds 100 dollars to the account
 account deposit 100
  //applying another method of the class, that withdraw 100 dollars to the account
 account withdraw 80
+res1: Boolean = True
 
 account withdraw 80
+res2: Boolean =  False
