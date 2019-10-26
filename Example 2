@@ -22,12 +22,16 @@ class Time {
 }
 
 val tiempo = new Time
+account Time= Time@ //pointer´s name
 
 //will give an error because you cannot access to a private class
 tiempo.hour
+error: cannot get attribute
 
 //return the value saved in the variable hour, getter
 tiempo hour
+res1: hour = 12
 
 //change the hour saved, setter
 tiempo hour_= 22
+
