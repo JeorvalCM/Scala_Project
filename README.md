@@ -1,2 +1,2 @@
-# Scala_Examples
-Codes of scala from chapter 18 of programming in scala
+# Scala_Project
+Project of Scala for programming paradigms
